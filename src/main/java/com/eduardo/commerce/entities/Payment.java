@@ -19,7 +19,7 @@ public class Payment {
     private Long id;
 
     @Column(columnDefinition = "TIMESTAMP WITHOUT TIME ZONE")
-    private Instant instant;
+    private Instant moment;
 
     @OneToOne
     @MapsId
