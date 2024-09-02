@@ -2,10 +2,8 @@ package com.eduardo.commerce.dto;
 
 import com.eduardo.commerce.entities.Product;
 import lombok.Getter;
-import lombok.NoArgsConstructor;
 
 @Getter
-@NoArgsConstructor
 
 public class ProductDTO {
 
